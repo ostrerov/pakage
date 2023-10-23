@@ -1,0 +1,16 @@
+{
+    "name": "ostrerov/pakage",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ostrerov\\Pakage\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2",
+        "srmklive/paypal": "~3.0",
+        "stripe/stripe-php": "^10.19"
+    }
+}
